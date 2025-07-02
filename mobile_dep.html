@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mobiles - Department</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f8f8f8;
+    }
+    header {
+      background-color: #232f3e;
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+    h2 {
+      margin: 20px;
+      color: #333;
+    }
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .product {
+      background: white;
+      padding: 15px;
+      border-radius: 8px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .product img {
+      height: 120px;
+      object-fit: contain;
+    }
+    .product h4 {
+      margin: 10px 0 5px;
+    }
+    .product p {
+      font-size: 14px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    All New Mobiles 
+  </header>
+
+  <h2>Popular Mobiles</h2>
+  <div class="product-grid">
+    <div class="product">
+      <img src="dep_images/iphone.jpg" alt="iPhone">
+      <h4>iPhone 17 pro max</h4>
+      <p>₹250000</p>
+    </div>
+    <div class="product">
+      <img src="dep_images/oneplus.jpg" alt="OnePlus">
+      <h4>OnePlus 11R</h4>
+      <p>₹39,999</p>
+    </div>
+    <div class="product">
+      <img src="dep_images/s25.jpg" alt="Samsung">
+      <h4>Samsung S25</h4>
+      <p>₹180000</p>
+    </div>
+  </div>
+</body>
+</html>

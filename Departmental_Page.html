@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Amazon Departmental Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f0f0f0;
+    }
+
+    /* Top header bar */
+    .top-bar {
+      background-color: #131921;
+      color: white;
+      display: flex;
+      align-items: center;
+      padding: 10px 20px;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .top-bar img.logo {
+      width: 100px;
+      height: auto;
+      cursor: pointer;
+    }
+
+    .location {
+      font-size: 14px;
+      white-space: nowrap;
+    }
+
+    .search-bar {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+    }
+
+    .search-bar input {
+      width: 100%;
+      max-width: 600px;
+      padding: 10px;
+      border-radius: 6px;
+      border: none;
+      font-size: 16px;
+      box-sizing: border-box;
+    }
+
+    .flag, .account, .orders, .cart {
+      font-size: 14px;
+      white-space: nowrap;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      cursor: pointer;
+    }
+
+    .flag img, .cart img {
+      width: 24px;
+      height: 24px;
+    }
+
+    header {
+      background-color: #232f3e;
+      padding: 20px;
+      color: white;
+      text-align: center;
+      font-size: 24px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+      gap: 20px;
+      padding: 30px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      text-align: center;
+      text-decoration: none;
+      color: black;
+      transition: transform 0.2s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .card img {
+      width: 100%;
+      height: 120px;
+      object-fit: cover;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+    }
+
+    .card p {
+      margin: 10px 0;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Navigation Bar -->
+  <div class="top-bar">
+    <img src="dep_images/amazon-removebg-preview.png" class="logo" alt="Amazon Logo">
+    <div class="location">📍 Deliver to Your Location</div>
+    <div class="search-bar">
+      <input type="text" placeholder="Search Amazon">
+    </div>
+    <div class="flag">
+      <img src="https://flagcdn.com/in.svg" alt="India Flag">
+      IN
+    </div>
+    <div class="account">Accounts & Lists</div>
+    <div class="orders">Returns & Orders</div>
+    <div class="cart">
+      <img src="dep_images/cart-removebg-preview.png" alt="Cart Icon">
+      Cart
+    </div>
+  </div>
+
+  <!-- Page Title -->
+  <header>
+    Amazon Style Departmental Page
+  </header>
+
+  <!-- Department Grid -->
+  <div class="grid">
+    <a href="mobile_dep.html" class="card">
+      <img src="dep_images/mobile.png" alt="Mobiles">
+      <p>Mobiles</p>
+    </a>
+    <a href="fashion_dep.html" class="card">
+      <img src="dep_images/fashion.jpg" alt="Fashion">
+      <p>Fashion</p>
+    </a>
+    <a href="electronics_dep.html" class="card">
+      <img src="dep_images/tv.jpg" alt="Electronics">
+      <p>Electronics</p>
+    </a>
+    <a href="travel_dep.html" class="card">
+      <img src="dep_images/train.jpg" alt="Travel">
+      <p>Travel</p>
+    </a>
+    <a href="deals_dep.html" class="card">
+      <img src="dep_images/deal.jpg" alt="Deals">
+      <p>Deals</p>
+    </a>
+    <a href="grocery_dep.html" class="card">
+      <img src="dep_images/grocery.jpg" alt="Grocery">
+      <p>Groceries</p>
+    </a>
+    <a href="movies_dep.html" class="card">
+      <img src="dep_images/movies.jpg" alt="Movies">
+      <p>Movies</p>
+    </a>
+    <a href="beauty_dep.html" class="card">
+      <img src="dep_images/makeup.jpg" alt="Beauty">
+      <p>Beauty</p>
+    </a>
+    <a href="appliances_dep.html" class="card">
+      <img src="dep_images/washingmachine.jpg" alt="Appliances" width="166">
+      <p>Appliances</p>
+    </a>
+    <a href="furniture_dep.html" class="card">
+      <img src="dep_images/sofa.jpg" alt="Furniture">
+      <p>Furniture</p>
+    </a>
+    <a href="toys_dep.html" class="card">
+      <img src="dep_images/toys.jpg" alt="Toys & Kids">
+      <p>Kids & Toys</p>
+    </a>
+  </div>
+
+</body>
+</html>

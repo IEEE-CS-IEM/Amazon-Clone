@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movies - Department</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f8f8f8;
+    }
+    header {
+      background-color: #232f3e;
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+    h2 {
+      margin: 20px;
+      color: #333;
+    }
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .product {
+      background: white;
+      padding: 15px;
+      border-radius: 8px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .product img {
+      height: 120px;
+      object-fit: contain;
+    }
+    .product h4 {
+      margin: 10px 0 5px;
+    }
+    .product p {
+      font-size: 14px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    Movies 
+  </header>
+
+  <h2>Top Rated Movies</h2>
+  <div class="product-grid">
+    <div class="product">
+      <img src="dep_images/herapheri.jpg" alt="baburao">
+      <h4>Phir Hera Pheri</h4>
+      <p>₹250</p>
+    </div>
+    <div class="product">
+      <img src="dep_images/jurasic.jpg" alt="dino">
+      <h4>Jurassic Park</h4>
+      <p>₹280</p>
+    </div>
+    <div class="product">
+      <img src="dep_images/ironman.jpg" alt="tony">
+      <h4>Iron Man </h4>
+      <p>₹450</p>
+    </div>
+  </div>
+</body>
+</html>
